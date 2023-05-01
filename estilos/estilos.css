@@ -3,29 +3,16 @@ h1{
     height: 200px;
 }
 *{
-
-    pad: 0px;
-    margin: 0px;
+    margin: auto;
 }
 .cvimagen{
     width: 425px;
-     height: 450px;
+    height: 450px;
     border: 5px solid #000000;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 62px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 62px;
 }
-.imagen{
-    
-    color: #D84B8F;
-    margin: 20px;
-    border: solid 10px;
-    padding: 10px;
-}
-.textoazul{
-    color: blue;
-    font-size: 200%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+
 .textonegro{
     color: #000000;
     font-size: 180%;
@@ -39,33 +26,47 @@ border-radius: 62px;
     
 }
 .textoprincipal{
-    margin: 5%;
+    margin: 2%;
     justify-content: center;
     font-size: 400%;
 }
+
 nav{
 width: 100%;
 height: 100px;
-left: 0px;
-top: 0px;
-
+left: 100px;
+top: 100px;
 background: #4D4D4D;
 }
 footer{
 width: 100%;
 height: 56px;
-
 background: #4D4D4D;
 color: #ffffff;
 }
-nav ul li {
-
-    border-radius: 30px;
-    background-color: #AFA1EA;
-    width: 268px;
-    height: 63px;
-    margin: 5px;
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    }
+li{
+    text-decoration: none;
+    
 }
+
+   a {
+      background: #AFA1EA ;
+      margin: 15px;
+      padding: 20px;
+      text-align: center;
+      width: 260px;
+      border-radius: 100px;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      
+    }
+
 nav ul {
     display: flex;
     justify-content: space-around;
@@ -83,12 +84,15 @@ nav ul {
     left: 273px;
     top: 546px;
     background-color: white;
-    width: 724px;
+    width: 560px;
     margin: 5%;
     display: flex;
     justify-content: space-around; 
     flex-direction: column; 
     border-radius: 30px;
+
+
+   
 }
 h2{
     font-family: Arial, Helvetica, sans-serif;
